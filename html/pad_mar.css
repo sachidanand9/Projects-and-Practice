@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 300px;
+    width: 350px;
+    background-color: green;
+    border: 10px solid black;
+    color: aliceblue;
+     font-size: large;
+     
+    /* padding-left: ;
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: ; */
+
+    /* Short hand padding  */
+
+    /* padding: 150px 75px 50px 75px; */
+
+    /* Margin-left: ;
+    Margin-top: ;
+    Margin-bottom: ;
+    Margin-right: ; */
+
+
+    /* Short hand  Margin  */
+
+    margin: 100px 100px 100px 100px ;
+    
+
+     
+}

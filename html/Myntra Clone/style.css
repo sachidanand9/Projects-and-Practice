@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+}
+nav>.logo{
+    width: 10%;
+    height: 100%;
+    /* background-color: red; */
+
+}
+nav>.logo>figure{
+    height: 100%;
+    width: 100%;
+    background-image: url(mediam/logo-myntra-41466.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+nav>.menu{
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+nav>.menu>ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+
+}
+nav>.menu>ul>li{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav>.menu>ul>li>sup{
+    color: hotpink;
+    padding: 8px;
+}
+nav>.menu>ul>li:hover{
+    border-bottom: 3px solid  green;
+
+}
+
+nav>.search{
+    width: 35%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav>.search>.searchbar{
+    height: 40%;
+    width: 90%;
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+nav>.search>.searchbar>i{
+    font-size: small;
+}
+
+nav>.search>.searchbar>input{
+    height: 100%;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+nav>.option{
+    width: 18%;
+    height: 100%;
+    background-color: yellow;
+}

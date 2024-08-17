@@ -1,0 +1,23 @@
+section{
+    background-color: red;
+    height: 620px;
+    width: 896px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section div{
+    
+    height: 170px;
+    width: 170px;
+    background-color: green;
+    border: 2px solid black;
+}
+article{
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    /* display : none; */
+    /* visibility: hidden; */ 
+}

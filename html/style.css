@@ -1,0 +1,23 @@
+*{
+    background-color: aqua;
+}
+div{
+    background-color: brown;
+    color: black;
+    height: 250px;
+    width: 250px;
+    border: 2px solid white;
+}
+#box2{
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid yellow;
+}
+.box{
+    background-color: green;
+    border: 2px solid black;
+}
+div,#box,.box{
+    font-size: xx-large;
+    
+}

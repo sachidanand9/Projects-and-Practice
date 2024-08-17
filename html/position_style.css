@@ -1,0 +1,33 @@
+/* section{
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+    border: 5px solid red;
+    position: relative;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+div{
+    height: 200px;
+    width: 200px;
+background-color: red;
+    position: absolute; 
+  bottom: 0;
+    left: 0;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+  */
+
+  /*                  FIXED POSITION               */
+
+  div{
+ height: 200px;
+  width: 200px;
+background-color: red;
+position: fixed;
+top: 0;
+}
