@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #000000; */
+}
+nav{
+    height: 10vh;
+    width: 99.9%;
+    background-color: #000000;
+    border: 1px solid red;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.menu{
+    height: 90%;
+    border: 2px solid red;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu>i{
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 90%;
+    width: 15%;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    
+    /* margin-left: 55px; */
+}
+.container>.tube{
+    color: red;
+}
+section{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    height: 90%;
+    width: 35%;
+    
+}
+.videos{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.category{
+    color: aliceblue;
+    font-size: 20px;
+    
+
+}
+.indian{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.live{
+    color: red;
+    font-size: 20px;
+    
+}
+.premium{
+    width: 10%;
+    height: 50%;
+    border: 2px solid red;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    margin-left: 1%;
+
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.search{
+    width: 27%;
+    height: 40%;
+    
+}
+.search>input{
+    width: 90%;
+    height: 100%;
+    color: aliceblue;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+/* ---------- Main Class starts ----------- */
+
+main{
+    /* height: 9; */
+    height: 89vh;
+    width: 99.8%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+}
+main>.left-side{
+    height: 100%;
+    width: 70%;
+    border: 2px solid red;
+}
+main>.right-side{
+    height: 100%;
+    width: 30%;
+    border: 2px solid red;
+
+}
