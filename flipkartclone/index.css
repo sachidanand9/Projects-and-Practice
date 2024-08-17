@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.logo{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+nav>.logo>figure{
+    height: 90%;
+    width: 70%;
+    background-image: url(./assests/exploreplus.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+nav>.search{
+    height: 100%;
+    width: 62%;
+    display: flex;
+    align-items: center;
+}
+nav>.search>.searchbox{
+    height: 40%;
+    width: 90%;
+    border-radius: 5px;
+    background-color:#f0f5ff;
+}
+nav>.search>.searchbox>i{
+    font-size: smaller;
+}
+nav>.search>.searchbox>input{
+    height: 100%;
+    width: 96%;
+    outline: none;
+    border: none;
+    background-color: inherit;
+   
+}
+nav>.menu{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>.menu>.login{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>.menu>.cart{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>.menu>.seller{
+    height: inherit;
+    width: inherit;
+    display:contents;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.more{
+    height: 100%;
+    width:8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more>.options{
+    height: 40%;
+    width: 30%;
+    padding-top: 3px;
+    padding-left: 8px;
+}
+
+.more>.options:hover{
+    background-color: #FAFAFA;
+}
+
+main{
+    background-color: #F1F2F4;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+}
+
+.category{
+    height: 90px;
+    width: 95%;
+    background-color: white;
+    margin: auto;
+}
+
+main>.category>ul{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+main>.category>ul>li{
+    padding: 5px;
+}
+
+main>.category>ul>li>.grocery{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-image: url(./assests/category/grocery.png);
+    background-position: center;
+    background-size: contain;
+}
+main>.category>ul>li>.mobile{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-image: url(./assests/category/mobile.png);
+    background-position: center;
+    background-size: contain;
+}
+main>.category>ul>li>.fashion{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-image: url(./assests/category/fashion.png);
+    background-position: center;
+    background-size: contain;
+}
+main>.category>ul>li>.electronics{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-image: url(./assests/category/electronics.png);
+    background-position: center;
+    background-size: contain;
+}
+main>.category>ul>li>.homeandfur{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-image: url(./assests/category/homeandfurniture.jpg);
+    background-position: center;
+    background-size: contain;
+}
+main>.category>ul>li>.appliances{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-image: url(./assests/category/appliances.jpg);
+    background-position: center;
+    background-size: contain;
+}
+main>.category>ul>li>.travel{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-image: url(./assests/category/travel.png);
+    background-position: center;
+    background-size: contain;
+}
+main>.category>ul>li>.btm{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-image: url(./assests/category/toys.png);
+    background-position: center;
+    background-size: contain;
+}
+main>.category>ul>li>.twowheelers{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    background-image: url(./assests/category/twowheel.png);
+    background-position: center;
+    background-size: contain;
+}
+
+main>.carousal{
+    height: 250px;
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(/flipkartclone/assests/carousal/365f73ce2659ed1a.jpg);
+    animation-name: carousal;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes carousal {
+    0%{
+        background-image: url(/flipkartclone/assests/carousal/365f73ce2659ed1a.jpg);
+        
+    
+    }
+    25%{
+        background-image: url(./assests/carousal/2.jpg);
+        transform: translateX(-300px);
+    }
+    50%{
+        background-image: url(./assests/carousal/3.jpg);
+
+    }
+}
+
+main>.maincontainer{
+    height:300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+main>.maincontainer>.ads{
+    height: 280px;
+    width: 15%;
+    background-image: url(./assests/electronicsitems/ad.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main>.maincontainer>.electronicscontainer{
+    height: 250px;
+    width: 90%;
+    padding: 5px 10px 5px;
+    background-color: white;
+    margin-top: 15px;
+
+}
+main>.maincontainer>.electronicscontainer>header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main>.maincontainer>.electronicscontainer>header>h1{
+    text-transform: capitalize;
+}
+main>.maincontainer>.electronicscontainer>header>i{
+    font-size: x-large;
+}
+main>.maincontainer>.electronicscontainer>.electronicsitems{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main>.electronicscontainer>.electronicsitems>article{
+    height: 100%;
+    width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+main>.electronicscontainer>.electronicsitems>article>h1{
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+main>.maincontainer>.electronicscontainer>.electronicsitems>article>.camera{
+    height: 60%;
+    width: 100%;
+    background-image: url(./assests/electronicsitems/camera.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main>.maincontainer>.electronicscontainer>.electronicsitems>article>.keyboard{
+    height: 60%;
+    width: 100%;
+    background-image: url(./assests/electronicsitems/keyboard.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main>.maincontainer>.electronicscontainer>.electronicsitems>article>.compled{
+    height: 60%;
+    width: 100%;
+    background-image: url(./assests/electronicsitems/led-computer-monitors.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
